@@ -1,6 +1,7 @@
 # Neural-Network-Type-Classification-TMNIST
  This code loads the MNIST dataset, prepares the data for a CNN model, creates and trains a CNN model, and stores the training history for further analysis. This code serves as a basic framework for building a CNN model for image classification.
-Here is a step-by-step breakdown
+ 
+Here is a step-by-step breakdown:
 1.	Imported necessary libraries including numpy, pandas, sklearn, tensorflow, and keras.
 2.	Loaded the MNIST dataset using pandas and extracted the image data and labels.
 3.	Split the data into a training set and a testing set using the train_test_split function from sklearn.
