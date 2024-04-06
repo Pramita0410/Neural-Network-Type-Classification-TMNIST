@@ -1,17 +1,30 @@
-# Neural-Network-Type-Classification-TMNIST
- This code loads the MNIST dataset, prepares the data for a CNN model, creates and trains a CNN model, and stores the training history for further analysis. This code serves as a basic framework for building a CNN model for image classification.
- 
-Here is a step-by-step breakdown:
-1.	Imported necessary libraries including numpy, pandas, sklearn, tensorflow, and keras.
-2.	Loaded the MNIST dataset using pandas and extracted the image data and labels.
-3.	Split the data into a training set and a testing set using the train_test_split function from sklearn.
-4.	Created a CNN model for image classification using the Keras API of TensorFlow, with several layers including Conv2D, MaxPooling2D, and Dense layers.
-5.	Compiled the CNN model using the Adam optimizer and SparseCategoricalCrossentropy loss function.
-6.	Visualized the model architecture using the plot_model function from Keras.
-7.	Reshaped the input data to the required format for the CNN model.
-8.	Trained the CNN model using the fit method with training and validation data.
-9.	Stored the training history in the history variable for further analysis.
+# Deep Learning on TMNIST: Alphabet Recognition with Keras
 
+This notebook presents a comprehensive guide to applying deep learning techniques for recognizing 94 different characters using the TMNIST (Text MNIST) dataset. It is a step-by-step tutorial starting from data loading, preprocessing, model building using Keras, to evaluation.
 
+## Features
 
+- **Data Exploration**: Initial exploration of the TMNIST dataset, including basic statistics and visualization.
+- **Preprocessing**: Detailed preprocessing steps to prepare the data for training, including normalization and splitting.
+- **Model Building**: Creation of a convolutional neural network (CNN) model using Keras to recognize the characters.
+- **Evaluation**: Evaluation of the model's performance and early stopping to prevent overfitting.
+
+## Requirements
+
+This notebook requires the following Python libraries:
+- Numpy
+- Pandas
+- Keras
+- Matplotlib
+- scikit-learn
+
+Ensure you have these libraries installed before running the notebook.
+
+## Dataset
+
+The TMNIST dataset used in this notebook consists of 94 characters. It can be found at `/kaggle/input/tmnist-alphabet-94-characters/94_character_TMNIST.csv`. Make sure to adjust the path if your dataset is located elsewhere.
+
+## Usage
+
+To use this notebook, simply run each cell sequentially. The notebook is structured in a way that guides you through each step of the process, from data loading to model evaluation.
 
